@@ -34,8 +34,7 @@ def main():
                         all_file_details.append({
                             "file_name": file_name,
                             "file_id": file.id,
-                            "path": file.path,
-                            "base_path": base_path
+                            "path": base_path + '/' + file.path
                         })
             
             print(f"Processed {base_path}")

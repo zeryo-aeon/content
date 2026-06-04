@@ -42,7 +42,7 @@ def main():
             print(f"Error processing {base_path}: {e}")
 
     # Save all combined output to content.json
-    output_filename = "content.json"
+    output_filename = "content"
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(all_file_details, f, indent=2)
     

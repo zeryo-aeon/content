@@ -26,7 +26,6 @@ jobs:
         run: pip install gdown
 
       - name: Fetch and update JSON files
-        run: python get_drive_files.py
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5

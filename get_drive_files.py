@@ -34,7 +34,8 @@ def main(folder,output):
                         all_file_details.append({
                             "file_name": file_name,
                             "file_id": file.id,
-                            "path": base_path + '/' + file.path
+                            #"path": base_path + '/' + file.path
+                            "path":file.path
                         })
             
             print(f"Processed {base_path}")
